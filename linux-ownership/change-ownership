@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# file ownership and permission characters (e.g. -rwxr-xr-- or drwxrwxr-x)
+# 1st character -> file type; (file or directory)
+# user(u) -> next 3 characters, group(g) -> middle 3 characters and others(o) -> last 3 characters
+# 'sudo chown <user> <file>' -> changes user
+# 'sudo chgrp <group> <file>' -> changes group
+# 'sudo chown <user>:<group> <file>' -> changes user and group in one command for a file
+# 'sudo chown -R <user>:<group> <folder>' -> change user and group for a folder and all files and subfolders in it
+
+# changing user and group ownership of sales.pdf from me to 'joe' in 'sales_department'
+sudo chown joe:sales_department sales.pdf

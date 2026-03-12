@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# sudo groupadd <group> -> creates a group
+# sudo usermod -aG <group> <user> -> add a user to a group without removing them from their current ones (-a)
+# sudo usermod -aG <group1>,<group2>,<group3> <user> -> add a user to multiple groups at once
+# sudo chgrp <group> <file> -> changes group
+# groups <user> -> shows each group a specific user belongs to
