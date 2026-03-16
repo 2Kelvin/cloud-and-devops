@@ -1,3 +1,3 @@
-# sys-admin
+# Cloud and Devops
 
-System Administration and DevOps projects and scripts
+Cloud and DevOps projects and scripts
